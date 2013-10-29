@@ -3,7 +3,7 @@
 # at all time points 
 dim=3 # image dimensionality
 AP="" # /home/yourself/code/ANTS/bin/bin/  # path to ANTs binaries
-ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS=2  # controls multi-threading
+ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS=4  # controls multi-threading
 export ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS
 f=$1      # 4D template image
 mask=$2   # 4D template label 
